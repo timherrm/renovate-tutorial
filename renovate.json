@@ -1,10 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "prHourlyLimit": 3,
   "regexManagers": [
     {
       "fileMatch": [
         "^host-.*.yml$",
-        "^host_vars/.*/vars.yml$"
+        "^host_vars/.*/vars.yml$",
+        "^group_vars/.*/vars.yml$"
       ],
       "datasourceTemplate": "docker",
       "versioningTemplate": "docker",
@@ -12,11 +17,5 @@
         "image: (?<depName>.*?):(?<currentValue>.*?)(@(?<currentDigest>sha256:.*?))?\\s"
       ]
     }
-  ],
-  {
-  "prHourlyLimit": 3
-  }
-  "extends": [
-    "config:recommended"
   ]
 }
