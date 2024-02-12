@@ -16,13 +16,13 @@
       "matchStrings": [
         "image: (?<depName>.*?):(?<currentValue>.*?)(@(?<currentDigest>sha256:.*?))?\\s",
         "image: (?<depName>.*?):(?<currentVersion>.*)"
-      ],
-    "packageRules": [
+      ]
+    }
+  ],
+  "packageRules": [
     {
       "matchPackagePatterns": ["^lscr.io\\/linuxserver\\/"],
       "versioning": "regex:^(?<compatibility>[a-z]*-|v)?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:[\\.-]?(?<build>.*))?$"
-    }
-  ]
     }
   ]
 }
