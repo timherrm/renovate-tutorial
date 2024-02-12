@@ -2,5 +2,20 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "prHourlyLimit": 4,
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^host-.*.yml$",
+        "^host_vars/.*/vars.yml$",
+        "^vars.yml$"
+      ],
+      "datasourceTemplate": "docker",
+      "versioningTemplate": "docker",
+      "matchStrings": [
+        "image: (?<depName>.*?):(?<currentValue>.*?)(@(?<currentDigest>sha256:.*?))?\\s"
+      ]
+    }
   ]
 }
