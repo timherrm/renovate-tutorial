@@ -2,7 +2,7 @@
 data_dir: "/srv/data"
 
 swag_container_name: swag
-swag_image: lscr.io/linuxserver/swag:2.8.0
+swag_image: lscr.io/linuxserver/swag:2.8.0-ls275
 swag_host_port_1: 80
 swag_host_port_2: 443
 swag_env_url: 'therr.de'
