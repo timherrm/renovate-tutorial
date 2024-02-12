@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "prHourlyLimit": 3,
+  "prHourlyLimit": 4,
   "regexManagers": [
     {
       "fileMatch": [
