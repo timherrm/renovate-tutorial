@@ -15,7 +15,7 @@
       "versioningTemplate": "docker",
       "matchStrings": [
         "image: (?<depName>.*?):(?<currentValue>.*?)(@(?<currentDigest>sha256:.*?))?\\s",
-        "image: (?<depName>.*?):(?<currentValue>.*)"
+        "image: (?<depName>.*?):(?<currentVersion>.*)"
       ]
     }
   ]
