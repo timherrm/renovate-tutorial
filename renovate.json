@@ -23,5 +23,6 @@
       "matchPackagePatterns": ["^lscr.io\\/linuxserver\\/"],
       "versioning": "regex:^(?<compatibility>[a-z]*-|v)?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:[\\.-]?(?<build>.*))?$"
     }
-  ]
+  ],
+  "timezone": "Europe/Berlin"
 }
