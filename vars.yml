@@ -50,7 +50,7 @@ ddclient_container_name: ddclient
 ddclient_image: lscr.io/linuxserver/ddclient:v3.11.2-ls148
 
 uptime_container_name: uptime-kuma
-uptime_image: louislam/uptime-kuma:1.23.11
+uptime_image: louislam/uptime-kuma:1.23.13
 uptime_server_name: uptime.therr.de
 uptime_container_port: 3001
 
