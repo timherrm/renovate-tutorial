@@ -23,7 +23,7 @@ loki_proxy_int: true
 loki_proxy_ext: true
 
 promtail_container_name: promtail
-promtail_image: grafana/promtail:2.9.4
+promtail_image: grafana/promtail:2.9.10
 
 grafana_container_name: grafana
 grafana_image: grafana/grafana:latest
