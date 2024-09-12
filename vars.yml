@@ -33,7 +33,7 @@ grafana_proxy_int: true
 grafana_proxy_ext: true
 
 gitlab_container_name: gitlab
-gitlab_image: gitlab/gitlab-ee:16.8.1-ee.0
+gitlab_image: gitlab/gitlab-ee:16.11.9-ee.0
 gitlab_server_name: git.therr.de
 gitlab_container_port: 3000
 gitlab_proxy_int: true
