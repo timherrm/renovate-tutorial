@@ -9,7 +9,7 @@ swag_env_url: 'therr.de'
 swag_env_email: 'certs@therr.de'
 
 pairdrop_container_name: pairdrop
-pairdrop_image: lscr.io/linuxserver/pairdrop:v1.10.6-ls66
+pairdrop_image: lscr.io/linuxserver/pairdrop:v1.10.10-ls91
 pairdrop_server_name: drop.therr.de
 pairdrop_container_port: 3000
 pairdrop_proxy_int: true
