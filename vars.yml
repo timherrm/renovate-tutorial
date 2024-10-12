@@ -60,7 +60,7 @@ homepage_server_name: homepage.therr.de
 homepage_container_port: 3000
 
 unifi_container_name: unifi-controller
-unifi_image: jacobalberty/unifi:v8.0.28
+unifi_image: jacobalberty/unifi:v8.5.6
 
 dynmap_external_name: 172.16.17.124
 dynmap_server_name: dynmap.therr.de
