@@ -16,7 +16,7 @@ pairdrop_proxy_int: true
 pairdrop_proxy_ext: true
 
 loki_container_name: loki
-loki_image: grafana/loki:2.9.4
+loki_image: grafana/loki:3.2.1
 loki_server_name: loki.therr.de
 loki_host_port: 3100
 loki_proxy_int: true
