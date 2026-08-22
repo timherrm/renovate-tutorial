@@ -40,7 +40,7 @@ gitlab_proxy_int: true
 gitlab_proxy_ext: true
 
 hedgedoc_container_name: hedgedoc
-hedgedoc_image: quay.io/hedgedoc/hedgedoc:1.9.9
+hedgedoc_image: quay.io/hedgedoc/hedgedoc:1.12.0
 hedgedoc_server_name: pad.therr.de
 hedgedoc_host_port: 3200
 hedgedoc_proxy_int: true
